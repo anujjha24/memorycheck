@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Anuj jha">
+    <title>Memory-Game
+    </title>
+    <style>
+        #grid {
+            display: flex;
+            width: 400px;
+            height: 300px;
+            flex-wrap: wrap;
+        }
+        h4{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>Your score: <span id="score"></span></h4>
+
+    <div id="grid"></div>
+
+    <audio id="sound">
+        <source src="click.mp3.mp3">
+    </audio>
+    <audio id="sound2">
+        <source src="winningsound.mp3">
+    </audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
